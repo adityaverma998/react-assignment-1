@@ -1,0 +1,9 @@
+{
+  "workflow": "ReactJSApp",
+  "scores":
+  {
+    "commanderTests": 60,
+    "cadetTests": 35,
+    "eslint": 5
+  }
+}

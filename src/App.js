@@ -1,17 +1,21 @@
 import React from 'react';
-import Dashboad from './Components/dashboad/Dashboad';
+import Dashboad from './Components/dashboard/Dashboard';
 import './App.css';
 import Footer from './Components/footer/Footer';
 import Header from './Components/header/Header';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
+
+import {BrowserRouter as Router, Route} from "react-router-dom"
 
 class App extends React.Component{
   render(){
-
-    return <div className = 'main-content' >
-     // call your components
-    </div>
+    return (
+    <Router>
+    <Header/>
+    <Dashboad/>
+    <Footer/>
+    </Router>
+  
+    )
    
   }
 }
